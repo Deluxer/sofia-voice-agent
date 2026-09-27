@@ -1,0 +1,51 @@
+# ─── Byte-compiled / optimized / packaging ────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+*.egg
+
+# ─── Virtual environments ──────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ─── Environment / secrets ─────────────────────────────────
+# Keep .env.example tracked; ignore real local env files.
+.env
+.env.*
+!.env.example
+
+# ─── Tooling caches ────────────────────────────────────────
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pytype/
+.dmypy.json
+.cache/
+.tox/
+.nox/
+
+# ─── Coverage / test reports ───────────────────────────────
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.cover
+
+# ─── Logs ──────────────────────────────────────────────────
+*.log
+pip-log.txt
+
+# ─── IDE / editor / OS ─────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
